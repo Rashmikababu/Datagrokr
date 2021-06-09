@@ -12,13 +12,13 @@ process.env.SAMPLE = "sample";
 Users.post("/register", (req, res) => {
   const today = new Date();
   const userData = {
-    first_name: req.body.first_name,
-    last_name: req.body.last_name,
-    email: req.body.email,
-    mobile_no: req.body.mobile_no,
-    account_no: req.body.account_no,
-    branch: req.body.branch,
-    database: req.body.database,
+    first_name: req.body.Firstname,
+    last_name: req.body.Lastname,
+    email: req.body.Email,
+    mobile_no: req.body.Mobile_no,
+    account_no: req.body.Account_no,
+    branch: req.body.Branch,
+    database: req.body.Database,
     created: today
   };
 
